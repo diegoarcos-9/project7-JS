@@ -11,7 +11,41 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="./app.js"></script>
     
+    <section class="grid grid-rows-4 min-h-screen mx-3 bg-blue-50">
+        <div class="text-center flex flex-col justify-center">
+            <h2 class="font-lora text-4xl font-bold">About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam!</p>
+        </div>
+        <div class=" row-span-3 grid gap-2 lg:grid-cols-2 lg:mx-16">
+            <div class="flex justify-center items-center lg:h-4/6">
+                <img class=" rounded-2xl" src="../img/img.png" alt="">
+            </div>
+            <div class=" grid grid-rows-3 w-full bg-gray-50 rounded-2xl lg:h-4/6">
+                <div class="grid grid-cols-3 bg-gray-400 h-20 rounded-t-2xl">
+                    <button class="hover:bg-blue-100 font-bold text-xl rounded-tl-2xl active:bg-gray-50 ">History</button>
+                    <button class="hover:bg-blue-100 font-bold text-xl active:bg-gray-50">Vision</button>
+                    <button class="hover:bg-blue-100 font-bold text-xl rounded-tr-2xl active:bg-gray-50">Goals</button>
+                </div>
+                <div class="row-span-2 flex flex-col justify-center items-center p-2 ">
+                    <div class="-mt-4">
+                        <h3 class="font-bold text-xl mb-3">History</h3>
+                        <p class="font-serif">
+                            I'm baby wolf pickled schlitz try-hard normcore marfa man bun
+                            mumblecore vice pop-up XOXO lomo kombucha glossier bicycle
+                            rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard
+                            tilde try-hard, woke fixie banjo man bun. Small batch tumeric
+                            mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral
+                            direct trade hoodie ugh chambray, craft beer pork belly flannel
+                            tacos single-origin coffee art party migas plaid pop-up.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./app.js"></script>
 </body>
 </html>
